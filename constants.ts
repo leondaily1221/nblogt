@@ -1,6 +1,26 @@
+
 import { ColorTheme } from './types';
 
 export const COLOR_THEMES: ColorTheme[] = [
+  {
+    name: '🔥 최감독 시그니처',
+    description: '강렬하고 트렌디한 네이버 & 포인트 컬러',
+    colors: {
+      primary: '#00C7BA',
+      primaryDark: '#009d94',
+      secondary: '#FF4D00',
+      background: '#f0fbf9',
+      text: '#1a1a1a',
+      highlightBg: '#fff3ec',
+      infoBoxBg: '#e6f9f8',
+      infoBoxBorder: '#00C7BA',
+      warningBoxBg: '#fff0e6',
+      warningBoxBorder: '#FF4D00',
+      tableHeaderBg: '#dcf7f5',
+      tableBorder: '#b2e9e5',
+      tableEvenRowBg: '#f7fdfc',
+    },
+  },
   {
     name: '🔵 블루-그레이',
     description: '차분하고 전문적인 느낌',

@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { COLOR_THEMES, EEAT_CATEGORIES_DATA, EVERGREEN_SUBCATEGORIES } from './constants';
 import { ColorTheme, GeneratedContent } from './types';
@@ -27,7 +28,7 @@ const Header: React.FC<{ onOpenHelp: () => void; }> = ({ onOpenHelp }) => (
 
 const Footer: React.FC = () => (
   <footer className="text-center p-6 mt-8 border-t border-gray-700 text-gray-500 text-sm">
-    <p>최가독 운영 개발</p>
+    <p>최감독 운영 개발 - 이지스비즈니스그룹</p>
   </footer>
 );
 
